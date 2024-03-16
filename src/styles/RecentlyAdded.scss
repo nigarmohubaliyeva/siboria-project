@@ -1,0 +1,127 @@
+.recently-added {
+  text-align: center;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #132742;
+  }
+
+  .carousel {
+    position: relative;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      font-size: 24px;
+      color: #132742;
+      cursor: pointer;
+      z-index: 1;
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .prev-btn {
+      left: 0;
+    }
+
+    .next-btn {
+      right: 0;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      flex: 1;
+      width: 300px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+      img {
+        width: 48%;
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+      }
+
+      .details {
+        padding: 20px;
+
+        h3 {
+          font-size: 20px;
+          margin-bottom: 10px;
+          color: #132742;
+        }
+
+        p {
+          font-size: 16px;
+          color: #666;
+          margin-bottom: 10px;
+        }
+
+        .price {
+          font-size: 18px;
+          font-weight: bold;
+          color: #132742;
+          margin-bottom: 10px;
+        }
+
+        .year {
+          font-size: 14px;
+          color: #666;
+          margin-top: auto;
+        }
+
+        button {
+          margin-left: 150px;
+          background-color: white;
+          color: #7287a3;
+          border: 2px solid #a0aec1;
+          border-radius: 8px;
+          padding: 8px 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease, color 0.3s ease,
+            box-shadow 0.3s ease;
+          display: block;
+
+          &:hover {
+            background-color: #132742;
+            color: white;
+            box-shadow: 0px 6px 12px rgba(19, 39, 66, 0.1);
+          }
+        }
+      }
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

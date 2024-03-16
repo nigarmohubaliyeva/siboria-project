@@ -1,0 +1,46 @@
+.footer {
+  padding: 50px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section h2 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  color: gray;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}

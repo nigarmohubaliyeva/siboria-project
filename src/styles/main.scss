@@ -1,0 +1,80 @@
+body {
+  background-color: #fafafa;
+}
+
+.content {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.text {
+  flex: 1;
+  margin-right: 100px;
+  padding-right: 20px;
+}
+
+.text .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.text h1 {
+  font-size: 30px;
+  color: #263fa3;
+}
+
+.text p {
+  font-size: 16px;
+  color: gray;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discover-btn {
+  background-color: #ff7b29;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Button */
+.video-btn {
+  background-color: #fafafa;
+  color: black;
+  border: 0px solid #fafafa;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.video-btn span {
+  margin-right: 5px;
+}
+
+.video-btn img {
+  width: 25px;
+  height: auto;
+  margin-right: 5px;
+}

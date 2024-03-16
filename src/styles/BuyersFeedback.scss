@@ -1,0 +1,55 @@
+.feedback-container {
+  background-color: #f9f9f9;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.feedback-text {
+  text-align: center;
+}
+
+.feedback-text h2 {
+  color: #132742;
+  margin-bottom: 20px;
+}
+
+.feedback-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.feedback-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.buyer-info h3 {
+  color: #132742;
+  margin-bottom: 5px;
+}
+
+.buyer-info p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #f9b115;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.comment {
+  color: #333;
+}
